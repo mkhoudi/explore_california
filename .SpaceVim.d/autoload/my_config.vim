@@ -1,4 +1,3 @@
-
 function! my_config#before() abort
   " Markdown perl - download from: http://www.daringfireball.net/projects/markdown/
   noremap md :%! /home/musta/.local/bin/Markdown_1.0.1/Markdown.pl --html4tags <cr> 
