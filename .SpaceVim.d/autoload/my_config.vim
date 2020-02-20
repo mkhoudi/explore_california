@@ -4,6 +4,6 @@ function! my_config#before() abort
   inoremap jk <esc>
   inoremap <esc> <nop>
   let g:mkdp_command_for_global = 1
-  let g:github_dashboard = { 'username': 'mkhoudi@hotmail.com', 'password': $GITHUB_TOKEN }
-  let g:gista#client#default_username = 'mkhoudi@hotmail.com'
+  let g:github_dashboard = { 'username': 'mkhoudi', 'password': $GITHUB_TOKEN }
+  let g:gista#client#default_username = 'mkhoudi'
 endfunction
